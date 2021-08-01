@@ -1,3 +1,4 @@
+# Задания идут по порядку
 a = int(254)
 
 print(bin(a))
@@ -5,3 +6,84 @@ print(bin(a))
 print(oct(a))
 
 print(hex(a))
+
+#
+
+b = int(365)
+
+weeks = b//7
+
+print(weeks)
+
+rest = b%7
+
+print(rest)
+
+#
+
+av_days = sum([31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31])/12
+
+print(round(av_days, 2))
+
+#
+
+hours = b*24
+
+print(hours)
+
+minutes = hours*60
+
+print(minutes)
+
+seconds = minutes*60
+
+print(seconds)
+
+#
+
+c = 4
+
+d = 7
+
+e = (c**2+d**2)**0.5
+
+print(round(e,2))
+
+sum_m = c + d + e
+
+print(round(sum_m, 2))
+
+min_m = min(c, d, e)
+
+print(min_m)
+
+max_m = max(c, d, e)
+
+print(round(max_m, 2))
+
+#
+
+name = "Олег"
+
+surname = "Литвинский"
+
+print("Меня зовут", name, surname, "и я учу Python!!!")
+
+#
+
+str = ("Карл у Клары украл кораллы, а Клара у Карла украла кларнет. Если бы Карл у Клары не украл кораллы\
+, то Клара у Карла не украла б кларнет")
+
+print(str.count("а"))
+
+print(str.lower())
+
+print(str.upper())
+
+print(str.swapcase())
+
+print(str.count("Кларнет"))
+
+print(str.count("КЛАРНЕТ"))
+
+print(str.count("кларнет"))
